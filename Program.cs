@@ -1,11 +1,16 @@
-namespace ModemTerminal;
+using System;
+using System.Windows.Forms;
 
-internal static class Program
+namespace ModemTerminal
 {
-    [STAThread]
-    private static void Main()
+    internal static class Program
     {
-        ApplicationConfiguration.Initialize();
-        Application.Run(new MainForm());
+        [STAThread]
+        private static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainForm());
+        }
     }
 }

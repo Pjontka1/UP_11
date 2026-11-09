@@ -1,4 +1,6 @@
-﻿#nullable disable
+﻿using System.Drawing;
+using System.Windows.Forms;
+
 namespace ModemTerminal
 {
     partial class MainForm
