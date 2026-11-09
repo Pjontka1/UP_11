@@ -167,7 +167,7 @@ namespace ModemTerminal
             btnInit.Name = "btnInit";
             btnInit.Size = new Size(86, 40);
             btnInit.TabIndex = 0;
-            btnInit.Text = "ATZ";
+            btnInit.Text = "Init (ATZ)";
             btnInit.UseVisualStyleBackColor = true;
             btnInit.Click += btnInit_Click;
             // 
